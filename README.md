@@ -1,6 +1,5 @@
 # AMDragDrop
 
-[![CI Status](http://img.shields.io/travis/Antonino Francesco Musolino/AMDragDrop.svg?style=flat)](https://travis-ci.org/Antonino Francesco Musolino/AMDragDrop)
 [![Version](https://img.shields.io/cocoapods/v/AMDragDrop.svg?style=flat)](http://cocoapods.org/pods/AMDragDrop)
 [![License](https://img.shields.io/cocoapods/l/AMDragDrop.svg?style=flat)](http://cocoapods.org/pods/AMDragDrop)
 [![Platform](https://img.shields.io/cocoapods/p/AMDragDrop.svg?style=flat)](http://cocoapods.org/pods/AMDragDrop)
@@ -23,6 +22,8 @@ pod "AMDragDrop"
 ## Author
 
 Antonino Francesco Musolino, ninomusolino@gmail.com
+
+Twitter @Ninomusolino
 
 ## License
 

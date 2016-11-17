@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-enum AMDragDropMode
+public enum AMDragDropMode
 {
     case Normal
     case RestrictY
     case RestrictX
 }
 
-@objc protocol AMDragDropDelegate
+@objc public protocol AMDragDropDelegate
 {
     func view(_ view: UIView, wasDroppedOnDrop drop: UIView!)
     @objc optional func viewShouldReturn(ToInitialPosition view: UIView) -> Bool
@@ -25,24 +25,24 @@ enum AMDragDropMode
     @objc optional func draggingEnd(forView view:UIView)
 }
 
-protocol AMHoverDelegate
+public protocol AMHoverDelegate
 {
     func view(_ view:UIView, didHover dropView:UIView)
     func view(_ view:UIView, didUnhover dropView:UIView)
 }
 
-class AMDragDropView: UIView
+open class AMDragDropView: UIView
 {
     var dragDelegate: AMDragDropDelegate?
     var hoverDelegate: AMHoverDelegate?
-    var dragMode: AMDragDropMode = .Normal
+    private var dragMode: AMDragDropMode = .Normal
     private var dropViews: [UIView]?
     private var animationDuration: Float = 0.5
     private var saveInitialPosition = false
     private var isHovering = false
     private var initialPosition: (x:CGFloat,y:CGFloat)?
     
-    func enableDragging()
+    open func enableDragging()
     {
         enableDragging(dragDelegate: nil, dropViews: nil)
     }
@@ -52,7 +52,7 @@ class AMDragDropView: UIView
     ///  @params
     ///     delegate: an AMDragDropDelegate
     ///     viewArray: an Array containing your Drop UIView
-    func enableDragging(dragDelegate delegate:AMDragDropDelegate?, dropViews viewArray:[UIView]?)
+    open func enableDragging(dragDelegate delegate:AMDragDropDelegate?, dropViews viewArray:[UIView]?)
     {
         dragDelegate = delegate
         dropViews = viewArray
@@ -60,7 +60,8 @@ class AMDragDropView: UIView
         addPanGesture()
     }
     
-    func stopDragging()
+    /// Disable the dragging for your view
+    open func stopDragging()
     {
         dragDelegate = nil
         dropViews = nil
@@ -71,7 +72,7 @@ class AMDragDropView: UIView
     /// Change the Drag mode
     /// @params
     ///     newMode: New AMDragDropMode
-    func modify(DragMode newMode:AMDragDropMode)
+    open func modify(DragMode newMode:AMDragDropMode)
     {
         dragMode = newMode
     }
@@ -79,25 +80,27 @@ class AMDragDropView: UIView
     /// Change the Drop Views
     /// @params
     ///     newArray: An Array of UIView
-    func modify(DropViews newArray:[UIView])
+    open func modify(DropViews newArray:[UIView])
     {
         dropViews = newArray
     }
     
-   
-    func modifyAnimation(duration:Float)
+    /// Modify the duration in seconds of the return to initial position animation
+    /// @params
+    ///     duration: Seconds
+    open func modifyAnimation(withDuration duration:Float)
     {
         animationDuration = duration
     }
     
     /// Flag if you want to save the initial position of your draggable view, the default is *false*
-    func saveInitialPosition(flag:Bool)
+    open func saveInitialPosition(flag:Bool)
     {
         saveInitialPosition = flag
     }
     
     /// This method move your draggable view to its initial position
-    func returnToInitialPosition()
+    open func returnToInitialPosition()
     {
         removePanGesture()
         UIView.animate(withDuration: TimeInterval(animationDuration),
@@ -141,8 +144,7 @@ class AMDragDropView: UIView
                 }
                 else
                 {
-                    initialPosition?.x = self.center.x
-                    initialPosition?.y = self.center.y
+                    initialPosition = (x: self.center.x, y:self.center.y)
                 }
         case .changed:
             let translation = recognizer.translation(in: self.superview)

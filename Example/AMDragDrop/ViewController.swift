@@ -7,17 +7,37 @@
 //
 
 import UIKit
+import AMDragDrop
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController, AMDragDropDelegate
+{
+   
+    @IBOutlet weak var otherDropView: AMDragDropView!
+    @IBOutlet weak var dragView: AMDragDropView!
+    @IBOutlet weak var dropView: UIView!
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        dragView.enableDragging(dragDelegate: self, dropViews: [(dropView)])
+        otherDropView.enableDragging(dragDelegate: self, dropViews: nil)
+        otherDropView.saveInitialPosition(flag: true)
+        otherDropView.modify(DragMode: .RestrictX)
+        otherDropView.modifyAnimation(withDuration: 1)
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func view(_ view: UIView, wasDroppedOnDrop drop: UIView!)
+    {
+        print("I was dropped on a Drop View")
+    }
+    
+    func viewShouldReturn(ToInitialPosition view: UIView) -> Bool
+    {
+        return true
     }
 
 }

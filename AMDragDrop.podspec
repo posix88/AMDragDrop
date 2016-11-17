@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AMDragDrop'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AMDragDrop.'
+  s.summary          = 'A UIView subclass that provide drag & drop functionality.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AMDragDrop'
+  s.homepage         = 'https://github.com/Posix88/AMDragDrop'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Antonino Francesco Musolino' => 'ninomusolino@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AMDragDrop.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Posix88/AMDragDrop.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/Ninomusolino'
 
   s.ios.deployment_target = '8.0'
 

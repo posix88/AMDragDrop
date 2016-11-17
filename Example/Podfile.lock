@@ -1,0 +1,16 @@
+PODS:
+  - AMDragDrop (0.1.0)
+
+DEPENDENCIES:
+  - AMDragDrop (from `../`)
+
+EXTERNAL SOURCES:
+  AMDragDrop:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMDragDrop: dcf07aca033e5c0c03619105795fa4a6d11f8b95
+
+PODFILE CHECKSUM: 8e8f782d39b0405c7b0d0e458a6579ea0a4525d9
+
+COCOAPODS: 1.1.0.rc.2
