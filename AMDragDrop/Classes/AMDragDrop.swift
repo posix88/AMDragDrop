@@ -182,6 +182,7 @@ open class AMDragDropView: UIView
             }
             recognizer.setTranslation(CGPoint.zero, in: self.superview)
         case .ended:
+			var viewNotIntersect = false
             if dropViews != nil
             {
                 for dropView in dropViews!
@@ -189,13 +190,15 @@ open class AMDragDropView: UIView
                     if self.frame.intersects(dropView.frame)
                     {
                         dragDelegate?.view(self, wasDroppedOnDrop: dropView)
-                    }
-                    else
-                    {
-                        dragDelegate?.draggingEnd?(forView: self)
+						viewNotIntersect = true
                     }
                 }
             }
+			
+			if dropViews == nil || viewNotIntersect
+			{
+				dragDelegate?.draggingEnd?(forView: self)
+			}
             let returnBack = dragDelegate?.viewShouldReturn?(ToInitialPosition: self) ?? false
             if returnBack
             {
@@ -209,4 +212,12 @@ open class AMDragDropView: UIView
         }
     }
     
+}
+
+extension AMDragDropView
+{
+    func performAnimation(withOptions: [UIViewAnimationOptions])
+    {
+        UIView.animate(withDuration: 1, delay: 0, options: [.curveEaseIn,.curveEaseOut], animations: {}, completion: {_ in })
+    }
 }

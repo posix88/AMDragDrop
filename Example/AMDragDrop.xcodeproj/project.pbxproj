@@ -132,8 +132,8 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1E9E5A3B32E18F4A840167D1 /* AMDragDrop.podspec */,
 				E63E467E81BD34A58D8CE54C /* README.md */,
+				1E9E5A3B32E18F4A840167D1 /* AMDragDrop.podspec */,
 				CC2AC46C2368D6C0E0F50ED6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
