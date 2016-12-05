@@ -6,7 +6,7 @@
 
 ## Description
 
-AMDragDrop is a simple subclass for UIView that adds in a simple way the drag and drop funtionality, and is a modified and "Swifty" version of UIView+DragDrop by ryanmeisters.
+AMDragDrop is a simple subclass for UIView that adds in a simple way the drag and drop funtionality.
 
 In order to enable dragging on your view you have to call this:
 
@@ -55,8 +55,10 @@ pod "AMDragDrop"
 
 Antonino Francesco Musolino, ninomusolino@gmail.com
 
-Twitter @Ninomusolino
+Twitter [@Ninomusolino](https://twitter.com/NinoMusolino)
 
 ## License
+
+This is a modified and "Swifty" version of [UIView+DragDrop](https://github.com/ryanmeisters/UIView-DragDrop) by ryanmeisters.
 
 AMDragDrop is available under the MIT license. See the LICENSE file for more info.
