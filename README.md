@@ -12,7 +12,7 @@ In order to enable dragging on your view you have to call this:
 
 ```swift
 dragView.enableDragging(dragDelegate: self, dropViews: [(dropView)])
-``
+```
 with dropViews is an array of possible UIView in which you could drop your view.
 
 The module expose two protocols you could subscribe to: AMDragDropDelegate and AMHoverDelegate.
@@ -24,7 +24,7 @@ The only mandatory method is:
 
 ```swift
 func view(_ view: UIView, wasDroppedOnDrop drop: UIView!)
-``
+```
 
 This method informs you that your dragged view was dropped on the drop views that you specified during the initialization.
 
@@ -32,7 +32,7 @@ If you're not interested in using drop views you could use:
 
 ```swift
 func draggingEnd(forView view:UIView)
-``
+```
 
 ##AMHoverDelegate
 This is the protocol you have to subscribe to in order to have the basic information during the hovering of your view on the drop views that you specified during the initialization. 
@@ -49,7 +49,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "AMDragDrop"
-``
+```
 
 ## Author
 
