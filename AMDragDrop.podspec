@@ -18,11 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  AMDragDrop is a simple subclass for UIView that adds in a simple way the drag and drop funtionality. Feel free to Use/Modify!
+ DESC
 
   s.homepage         = 'https://github.com/Posix88/AMDragDrop'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Antonino Francesco Musolino' => 'ninomusolino@gmail.com' }
   s.source           = { :git => 'https://github.com/Posix88/AMDragDrop.git', :tag => s.version.to_s }
@@ -32,11 +31,5 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'AMDragDrop/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AMDragDrop' => ['AMDragDrop/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
