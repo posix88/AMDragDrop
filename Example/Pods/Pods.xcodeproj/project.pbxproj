@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E8C207DDF8C6686055CC96B7429BF1 /* AMDragDrop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 731D012D16125EBCD494AB46B6ABEB81 /* AMDragDrop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321C952769AF866DEC71701B759E92BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		359D7E7AFFC52948ED4398F080CF6A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4980BA9AC07EFBB9DFF1334F41F4FB3F /* AMDragDrop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB57CC5D1137787CAEAAF9851EEDAED /* AMDragDrop-dummy.m */; };
+		60220AA4B62DB45C40D49F3BC7217E6E /* Pods-AMDragDrop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39AC03F4B0251065D6FA096E389D15 /* Pods-AMDragDrop_Tests-dummy.m */; };
+		8FC469E54AD278C8AD4C17AF8D053116 /* Pods-AMDragDrop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D29E93D2035941066ECCA02AA78F0 /* Pods-AMDragDrop_Example-dummy.m */; };
+		935147AFF31859F6702EBB42DFC83A71 /* AMDragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B88E0114EBBCABB83DDC248D908BDC2 /* AMDragDrop.swift */; };
+		BE5949F00F4FF6C5D16A756DB7F05CCD /* Pods-AMDragDrop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A15CA7D3CCFD0FEE1FA2ABE8BE7523 /* Pods-AMDragDrop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75F2D7B62062078D213CD418C448253 /* Pods-AMDragDrop_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE14291782CBAB08009F3C7F640D7BBC /* Pods-AMDragDrop_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADBC5C077BD1453BD5A17771766ECE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8CD6FD6F128F7693E0057A20FAEB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA0A580DDEF3B0DDE9B33B7221E83C0;
+			remoteInfo = AMDragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028D29E93D2035941066ECCA02AA78F0 /* Pods-AMDragDrop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMDragDrop_Example-dummy.m"; sourceTree = "<group>"; };
+		039A5861035F65C490EF7B989852FAF7 /* Pods-AMDragDrop_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMDragDrop_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0C3B51B42716DF03F24D753290DED9F3 /* Pods_AMDragDrop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMDragDrop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D59902C1FDEBF0DECB3D89002178003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BEBADD71D0E4FD7B3876A29ED1B729 /* AMDragDrop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMDragDrop-prefix.pch"; sourceTree = "<group>"; };
+		380E6FEE2A1FBB394ADA5967F6B199DC /* Pods-AMDragDrop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMDragDrop_Tests.modulemap"; sourceTree = "<group>"; };
+		3A39AC03F4B0251065D6FA096E389D15 /* Pods-AMDragDrop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMDragDrop_Tests-dummy.m"; sourceTree = "<group>"; };
+		3B88E0114EBBCABB83DDC248D908BDC2 /* AMDragDrop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AMDragDrop.swift; sourceTree = "<group>"; };
+		3DB57CC5D1137787CAEAAF9851EEDAED /* AMDragDrop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMDragDrop-dummy.m"; sourceTree = "<group>"; };
+		468F0D9FB3CDBCC3DB9BECCD82A2A1E3 /* Pods-AMDragDrop_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMDragDrop_Example-resources.sh"; sourceTree = "<group>"; };
+		4BC6D0C80B01EDB04706B5319B41AED5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE499566A753AC918A3445538E02CAB /* Pods-AMDragDrop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMDragDrop_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61A51C858327B3B45F9C4ECA6A8FD6EF /* Pods-AMDragDrop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMDragDrop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C5CD27DC774355F9043340A486C2A26 /* Pods-AMDragDrop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMDragDrop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C65C93C93DA0B36F28F0B94C383AD8F /* Pods-AMDragDrop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMDragDrop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		731D012D16125EBCD494AB46B6ABEB81 /* AMDragDrop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMDragDrop-umbrella.h"; sourceTree = "<group>"; };
+		883236C5192DF42F654DCBFDEBA86FE7 /* Pods-AMDragDrop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMDragDrop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD8D09D219A4CBF0A3206BA565C0EAFE /* Pods-AMDragDrop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMDragDrop_Example.modulemap"; sourceTree = "<group>"; };
+		B1AB9747C66F1F5C6F8C40053F602CCF /* AMDragDrop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMDragDrop.modulemap; sourceTree = "<group>"; };
+		BE14291782CBAB08009F3C7F640D7BBC /* Pods-AMDragDrop_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMDragDrop_Example-umbrella.h"; sourceTree = "<group>"; };
+		C0A15CA7D3CCFD0FEE1FA2ABE8BE7523 /* Pods-AMDragDrop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMDragDrop_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3B5594EE6A1F2AC3107F28277C7D99F /* Pods-AMDragDrop_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMDragDrop_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C69DC5C40B4ED41B7E5551134F97F690 /* Pods_AMDragDrop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMDragDrop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D03E5E8BAD9456219E2EBC37D1108EE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD37BE22D6E90FD4B583D5B3D9DCF35 /* Pods-AMDragDrop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMDragDrop_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EE03A2F03E8CA7632139625D06F54C1C /* Pods-AMDragDrop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMDragDrop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF09BCAB9755C81EC81344ECA1BC9930 /* Pods-AMDragDrop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMDragDrop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2180D81FF1F95E2669BB57403EC7D92 /* Pods-AMDragDrop_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMDragDrop_Tests-resources.sh"; sourceTree = "<group>"; };
+		FE9666901BE04450AE2B28270744ED80 /* AMDragDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMDragDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF86490C4553000B95AE0DFCE11E974 /* AMDragDrop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMDragDrop.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2131230EBA76111744E428E16EBF479E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321C952769AF866DEC71701B759E92BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F01426EE89E51C398510C210435327C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADBC5C077BD1453BD5A17771766ECE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB46EDDDEF9E956DFE986A793403D1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359D7E7AFFC52948ED4398F080CF6A5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A972F90F585A929212576921CE08274 /* AMDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				DCD36F5FF9563467C17B2E041E48CC71 /* AMDragDrop */,
+				23F9524EB6E6069A3ACA02AC083F7AF3 /* Support Files */,
+			);
+			name = AMDragDrop;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		206BD8C3A1297FB92966C33ADEC6201D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E01178D92D557EA864C8526DEE728291 /* Pods-AMDragDrop_Example */,
+				604DEFE10DDDF8ED7191540D2E552D54 /* Pods-AMDragDrop_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23F9524EB6E6069A3ACA02AC083F7AF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB9747C66F1F5C6F8C40053F602CCF /* AMDragDrop.modulemap */,
+				FFF86490C4553000B95AE0DFCE11E974 /* AMDragDrop.xcconfig */,
+				3DB57CC5D1137787CAEAAF9851EEDAED /* AMDragDrop-dummy.m */,
+				29BEBADD71D0E4FD7B3876A29ED1B729 /* AMDragDrop-prefix.pch */,
+				731D012D16125EBCD494AB46B6ABEB81 /* AMDragDrop-umbrella.h */,
+				4BC6D0C80B01EDB04706B5319B41AED5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMDragDrop";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		604DEFE10DDDF8ED7191540D2E552D54 /* Pods-AMDragDrop_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D03E5E8BAD9456219E2EBC37D1108EE7 /* Info.plist */,
+				380E6FEE2A1FBB394ADA5967F6B199DC /* Pods-AMDragDrop_Tests.modulemap */,
+				EE03A2F03E8CA7632139625D06F54C1C /* Pods-AMDragDrop_Tests-acknowledgements.markdown */,
+				6C65C93C93DA0B36F28F0B94C383AD8F /* Pods-AMDragDrop_Tests-acknowledgements.plist */,
+				3A39AC03F4B0251065D6FA096E389D15 /* Pods-AMDragDrop_Tests-dummy.m */,
+				039A5861035F65C490EF7B989852FAF7 /* Pods-AMDragDrop_Tests-frameworks.sh */,
+				F2180D81FF1F95E2669BB57403EC7D92 /* Pods-AMDragDrop_Tests-resources.sh */,
+				C0A15CA7D3CCFD0FEE1FA2ABE8BE7523 /* Pods-AMDragDrop_Tests-umbrella.h */,
+				6C5CD27DC774355F9043340A486C2A26 /* Pods-AMDragDrop_Tests.debug.xcconfig */,
+				61A51C858327B3B45F9C4ECA6A8FD6EF /* Pods-AMDragDrop_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMDragDrop_Tests";
+			path = "Target Support Files/Pods-AMDragDrop_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCB0FAAA9A58EC01A0E91FC9527EB384 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8AA762EEFACAE6ED61DA1A1436B62B5A /* Products */,
+				206BD8C3A1297FB92966C33ADEC6201D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA762EEFACAE6ED61DA1A1436B62B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9666901BE04450AE2B28270744ED80 /* AMDragDrop.framework */,
+				C69DC5C40B4ED41B7E5551134F97F690 /* Pods_AMDragDrop_Example.framework */,
+				0C3B51B42716DF03F24D753290DED9F3 /* Pods_AMDragDrop_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB0FAAA9A58EC01A0E91FC9527EB384 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A972F90F585A929212576921CE08274 /* AMDragDrop */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C1FA1F265CEA47865551F57C90698581 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B88E0114EBBCABB83DDC248D908BDC2 /* AMDragDrop.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DCD36F5FF9563467C17B2E041E48CC71 /* AMDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				C1FA1F265CEA47865551F57C90698581 /* Classes */,
+			);
+			path = AMDragDrop;
+			sourceTree = "<group>";
+		};
+		E01178D92D557EA864C8526DEE728291 /* Pods-AMDragDrop_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1D59902C1FDEBF0DECB3D89002178003 /* Info.plist */,
+				AD8D09D219A4CBF0A3206BA565C0EAFE /* Pods-AMDragDrop_Example.modulemap */,
+				EF09BCAB9755C81EC81344ECA1BC9930 /* Pods-AMDragDrop_Example-acknowledgements.markdown */,
+				883236C5192DF42F654DCBFDEBA86FE7 /* Pods-AMDragDrop_Example-acknowledgements.plist */,
+				028D29E93D2035941066ECCA02AA78F0 /* Pods-AMDragDrop_Example-dummy.m */,
+				C3B5594EE6A1F2AC3107F28277C7D99F /* Pods-AMDragDrop_Example-frameworks.sh */,
+				468F0D9FB3CDBCC3DB9BECCD82A2A1E3 /* Pods-AMDragDrop_Example-resources.sh */,
+				BE14291782CBAB08009F3C7F640D7BBC /* Pods-AMDragDrop_Example-umbrella.h */,
+				DCD37BE22D6E90FD4B583D5B3D9DCF35 /* Pods-AMDragDrop_Example.debug.xcconfig */,
+				5BE499566A753AC918A3445538E02CAB /* Pods-AMDragDrop_Example.release.xcconfig */,
+			);
+			name = "Pods-AMDragDrop_Example";
+			path = "Target Support Files/Pods-AMDragDrop_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF1314D90B7F39FAE7EF45B0C2F1FBC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E8C207DDF8C6686055CC96B7429BF1 /* AMDragDrop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A4C6CFBCE7AB77F1CA6D77D5D1D221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5949F00F4FF6C5D16A756DB7F05CCD /* Pods-AMDragDrop_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBFDC066E1EC9D1316E701E1BD90049 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F2D7B62062078D213CD418C448253 /* Pods-AMDragDrop_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		125BB0BAFFDA55907872DED87594429E /* Pods-AMDragDrop_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817768E791D258C0D4302DDF3956707F /* Build configuration list for PBXNativeTarget "Pods-AMDragDrop_Tests" */;
+			buildPhases = (
+				410B0AEA0E0395F88067A60C898CFE9C /* Sources */,
+				2131230EBA76111744E428E16EBF479E /* Frameworks */,
+				B7A4C6CFBCE7AB77F1CA6D77D5D1D221 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AMDragDrop_Tests";
+			productName = "Pods-AMDragDrop_Tests";
+			productReference = 0C3B51B42716DF03F24D753290DED9F3 /* Pods_AMDragDrop_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EA0A580DDEF3B0DDE9B33B7221E83C0 /* AMDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7AE9C07D7668C6D8804D7412AE3F65 /* Build configuration list for PBXNativeTarget "AMDragDrop" */;
+			buildPhases = (
+				AD4A19A206DF87C2C58C605E97BAF9B5 /* Sources */,
+				CB46EDDDEF9E956DFE986A793403D1B7 /* Frameworks */,
+				AF1314D90B7F39FAE7EF45B0C2F1FBC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMDragDrop;
+			productName = AMDragDrop;
+			productReference = FE9666901BE04450AE2B28270744ED80 /* AMDragDrop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF916670E851EF3907DDBE018CDC81B9 /* Pods-AMDragDrop_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BD0CB782FF61D4A9987770AA45B7EE /* Build configuration list for PBXNativeTarget "Pods-AMDragDrop_Example" */;
+			buildPhases = (
+				3A9C9FB4697FC8241FD51DDED1CE7B66 /* Sources */,
+				6F01426EE89E51C398510C210435327C /* Frameworks */,
+				EEBFDC066E1EC9D1316E701E1BD90049 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041D38C2FB94628DC89A3A128E3405D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AMDragDrop_Example";
+			productName = "Pods-AMDragDrop_Example";
+			productReference = C69DC5C40B4ED41B7E5551134F97F690 /* Pods_AMDragDrop_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8AA762EEFACAE6ED61DA1A1436B62B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EA0A580DDEF3B0DDE9B33B7221E83C0 /* AMDragDrop */,
+				AF916670E851EF3907DDBE018CDC81B9 /* Pods-AMDragDrop_Example */,
+				125BB0BAFFDA55907872DED87594429E /* Pods-AMDragDrop_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A9C9FB4697FC8241FD51DDED1CE7B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC469E54AD278C8AD4C17AF8D053116 /* Pods-AMDragDrop_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410B0AEA0E0395F88067A60C898CFE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60220AA4B62DB45C40D49F3BC7217E6E /* Pods-AMDragDrop_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A19A206DF87C2C58C605E97BAF9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4980BA9AC07EFBB9DFF1334F41F4FB3F /* AMDragDrop-dummy.m in Sources */,
+				935147AFF31859F6702EBB42DFC83A71 /* AMDragDrop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041D38C2FB94628DC89A3A128E3405D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMDragDrop;
+			target = 4EA0A580DDEF3B0DDE9B33B7221E83C0 /* AMDragDrop */;
+			targetProxy = 8C8CD6FD6F128F7693E0057A20FAEB4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FB5F0EC76B4A49B1A9C580FD1656C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A51C858327B3B45F9C4ECA6A8FD6EF /* Pods-AMDragDrop_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMDragDrop_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMDragDrop_Tests/Pods-AMDragDrop_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMDragDrop_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6636CD8F17862AD876E81BFACF71049D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD37BE22D6E90FD4B583D5B3D9DCF35 /* Pods-AMDragDrop_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMDragDrop_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMDragDrop_Example/Pods-AMDragDrop_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMDragDrop_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86115F16326FF6E0109F8C34EA1A1716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE499566A753AC918A3445538E02CAB /* Pods-AMDragDrop_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMDragDrop_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMDragDrop_Example/Pods-AMDragDrop_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMDragDrop_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDA325E2C56E6845C112E5B1C842A9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF86490C4553000B95AE0DFCE11E974 /* AMDragDrop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMDragDrop/AMDragDrop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMDragDrop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMDragDrop/AMDragDrop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMDragDrop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0CF24DA1DC15FDC1A8D228820F1B634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF86490C4553000B95AE0DFCE11E974 /* AMDragDrop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMDragDrop/AMDragDrop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMDragDrop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMDragDrop/AMDragDrop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMDragDrop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7189706BDECAE6340174C1ADF3087ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5CD27DC774355F9043340A486C2A26 /* Pods-AMDragDrop_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMDragDrop_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMDragDrop_Tests/Pods-AMDragDrop_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMDragDrop_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BD0CB782FF61D4A9987770AA45B7EE /* Build configuration list for PBXNativeTarget "Pods-AMDragDrop_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636CD8F17862AD876E81BFACF71049D /* Debug */,
+				86115F16326FF6E0109F8C34EA1A1716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817768E791D258C0D4302DDF3956707F /* Build configuration list for PBXNativeTarget "Pods-AMDragDrop_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7189706BDECAE6340174C1ADF3087ED /* Debug */,
+				1FB5F0EC76B4A49B1A9C580FD1656C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7AE9C07D7668C6D8804D7412AE3F65 /* Build configuration list for PBXNativeTarget "AMDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CF24DA1DC15FDC1A8D228820F1B634 /* Debug */,
+				DDA325E2C56E6845C112E5B1C842A9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
