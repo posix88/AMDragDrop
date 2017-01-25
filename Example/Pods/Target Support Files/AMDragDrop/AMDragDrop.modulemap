@@ -1,6 +1,0 @@
-framework module AMDragDrop {
-  umbrella header "AMDragDrop-umbrella.h"
-
-  export *
-  module * { export * }
-}
