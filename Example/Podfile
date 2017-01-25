@@ -1,6 +1,0 @@
-use_frameworks!
-target 'AMDragDrop_Tests' do
-  pod 'AMDragDrop', :path => '../'
-  
-  
-end
